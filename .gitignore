@@ -1,0 +1,13 @@
+# generic editor and OS files
+.idea/
+.zed/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# python specific
+__pycache__/
+
+# project specific
+server/logs/
+*.obj

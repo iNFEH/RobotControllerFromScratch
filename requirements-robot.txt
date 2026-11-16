@@ -1,0 +1,6 @@
+pyzed
+Jetson.GPIO==2.1.6
+pyserial
+adafruit-blinka
+adafruit-circuitpython-gps
+ruff
