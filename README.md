@@ -80,8 +80,8 @@ Connect both devices to the same local network. Enter the Jetson's IP address in
 ## Final thougths
 Given the power of hindsight I would do a few things different whenever I try this again, important lessons 
 were learned. For starters doing navigation requires considerably more performance than I first thought. The ZED 
-sdk supports python, C# and C. Python, that I decided to use, being the slowest of the three when running any
-computationally heavy code was maybe not ideal. Rewriting the whole thing in C just to observe the performance
+sdk supports python, C# and C++. Python, that I decided to use, being the slowest of the three when running any
+computationally heavy code was maybe not ideal. Rewriting the whole thing in C++ just to observe the performance
 difference would be an interesting experiment in the future. An alternative to this is to offload more of the
 computation load away from the actual robot and onto the controling device instead. So the goal would simply be 
 to gather the information and to pass it to the controling device as quickly as possible and let that device 
